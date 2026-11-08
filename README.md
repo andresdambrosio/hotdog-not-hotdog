@@ -23,6 +23,15 @@ Usa transfer learning sobre una **ConvNeXt-Tiny** preentrenada en ImageNet-22k (
 └── requirements.txt
 ```
 
+## Origen de las imágenes
+
+**Las imágenes de `data/` no son mías** y no tengo registro exacto de dónde las obtuve. Los orígenes más probables son:
+
+- El dataset [**Hot Dog - Not Hot Dog** de Kaggle](https://www.kaggle.com/datasets/dansbecker/hot-dog-not-hot-dog), que tiene la misma estructura (`hot_dog/` y `not_hot_dog/`, ~500 imágenes por clase).
+- [**Food-101**](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/) (Bossard et al., ETH Zürich, 2014), del que parece derivar el anterior. Los nombres de los archivos (p. ej. `1000288.jpg`) coinciden con su formato. Las imágenes de Food-101 se recolectaron de foodspotting.com y sus autores aclaran que no son dueños de ellas.
+
+Se incluyen solo con fines educativos y no comerciales. Si sos titular de alguna imagen y querés que la quite, abrí un issue.
+
 ## Instalación
 
 ```bash
