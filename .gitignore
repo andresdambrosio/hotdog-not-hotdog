@@ -1,0 +1,11 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+
+# Modelo entrenado (se publica en GitHub Releases, pesa >100 MB)
+*.pt
+*.pth
+
+# macOS
+.DS_Store
